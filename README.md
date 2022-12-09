@@ -8,7 +8,7 @@ Welcome to Knight's Quest, a simple 2D side-scroller game created by the HBHS Ga
 To get started, you will need to download the game files from our GitHub repository. Once you have downloaded the files, launch [Godot 3.5.1](https://www.godotengine.org) and import the project.godot file to edit or launch the game.
 
 ## Playing the Game
-In Knight's Quest, you will use the left and right arrow keys to move your character, and the up arrow key to jump. You can also use the space bar to attack enemies and defeat them.
+In Knight's Quest, you will use the A and D keys to move your character, and the W key to jump. You can also use the space bar or left click the mouse to attack enemies and defeat them.
 
 Your goal is to make it through each level and defeat the boss at the end to save the kingdom. Be sure to collect coins along the way to increase your score!
 
