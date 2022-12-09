@@ -9,6 +9,10 @@ var velocity = Vector2()
 func _physics_process(delta):
 	velocity.y += GRAVITY * delta
 	
+	if is_on_floor():
+		# we are on the floor, so set the y velocity to something close to zero
+		velocity.y = 5.0
+	
 	if Input.is_action_pressed("left") and $AnimatedSprite.animation != "attack":
 		velocity.x = -WALK_SPEED
 		if is_on_floor():
