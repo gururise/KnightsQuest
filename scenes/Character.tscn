@@ -1,4 +1,4 @@
-[gd_scene load_steps=45 format=2]
+[gd_scene load_steps=46 format=2]
 
 [ext_resource path="res://assets/sprites/1_KNIGHT/Knight_01__IDLE_001.png" type="Texture" id=1]
 [ext_resource path="res://assets/sprites/1_KNIGHT/Knight_01__IDLE_006.png" type="Texture" id=2]
@@ -42,6 +42,7 @@
 [ext_resource path="res://assets/sprites/1_KNIGHT/Knight_01__JUMP_000.png" type="Texture" id=40]
 [ext_resource path="res://scenes/Character.gd" type="Script" id=41]
 [ext_resource path="res://assets/sfx/swipe.wav" type="AudioStream" id=42]
+[ext_resource path="res://assets/sfx/footsteps.wav" type="AudioStream" id=43]
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
@@ -77,15 +78,19 @@ script = ExtResource( 41 )
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 frames = SubResource( 1 )
 animation = "idle"
-frame = 1
+frame = 3
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2( 25.7143, -54.2857 )
 shape = SubResource( 2 )
 
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+[node name="SwordAudio" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 42 )
+
+[node name="FootAudio" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 43 )
+volume_db = -6.0
 
 [node name="Timer" type="Timer" parent="."]
 one_shot = true
