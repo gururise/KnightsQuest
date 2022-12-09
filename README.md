@@ -2,6 +2,8 @@
 
 Welcome to Knight's Quest, a simple 2D side-scroller game created by the HBHS Gamedev Club! In this game, you will play as the brave knight who must fight your way through various levels and defeat enemies to save the kingdom.
 
+![Knights Quest](screenshot.jpg)
+
 ## Getting Started
 To get started, you will need to download the game files from our GitHub repository. Once you have downloaded the files, launch [Godot 3.5.1](https://www.godotengine.org) and import the project.godot file to edit or launch the game.
 
