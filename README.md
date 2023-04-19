@@ -20,3 +20,6 @@ If you have any questions or feedback about Knight's Quest, please feel free to 
 
 ## Acknowledgements
 We would like to thank the [HBHS Gamedev Club](https://gamedev.bytethug.com/) members for their hard work and dedication in creating this game. We hope you enjoy playing Knight's Quest!
+
+[@HauntedHeavy](https://github.com/HauntedHeavy)
+[@DSneezy](https://github.com/Dsneezy)
